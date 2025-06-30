@@ -5,6 +5,7 @@ on:
     branches: [ "aegis/develop" ]
   pull_request:
     branches: [ "aegis/develop" ]
+  workflow_dispatch:
 
 jobs:
   build:
