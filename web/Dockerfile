@@ -1,11 +1,14 @@
 FROM node:18.20.8 AS builder
 
+ARG ENV_FILE
+
 WORKDIR /app
 
 # 複製所有子專案
 COPY contracts ./contracts
 COPY sdk ./sdk
 COPY web ./web
+COPY web/${ENV_FILE} ./web/.env
 
 # 先安裝根目錄依賴（如果有 monorepo workspace）
 # COPY package*.json ./
