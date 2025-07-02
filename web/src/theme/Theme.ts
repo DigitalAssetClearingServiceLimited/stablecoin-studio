@@ -1,14 +1,14 @@
 import { extendTheme } from '@chakra-ui/react';
 import { Button } from './components/Button';
-import { Text } from './components/Text';
-import { Select } from './components/Select';
-import { Input } from './components/Input';
-import { FormLabel } from './components/FormLabel';
-import { Heading } from './components/Heading';
-import { Tabs } from './components/Tabs';
-import { FormError } from './components/FormError';
 import { DirectAccess } from './components/DirectAccess';
 import { DirectAction } from './components/DirectAction';
+import { FormError } from './components/FormError';
+import { FormLabel } from './components/FormLabel';
+import { Heading } from './components/Heading';
+import { Input } from './components/Input';
+import { Select } from './components/Select';
+import { Tabs } from './components/Tabs';
+import { Text } from './components/Text';
 
 const theme = extendTheme({
 	config: {
@@ -17,7 +17,7 @@ const theme = extendTheme({
 	colors: {
 		background: 'rgb(51, 51, 51, .5)',
 		brand: {
-			primary: '#662D8F',
+			primary: '#428EB6',
 			secondary: '#464646',
 			black: '#323232',
 			gray: '#666666',
@@ -26,7 +26,7 @@ const theme = extendTheme({
 			gray4: '#FFFAF4',
 			gray5: '#edf2f7',
 			gray100: '#F7FAFC',
-			gray200: '#662d8f0f',
+			gray200: '#428EB60f',
 			gray300: '#CBD5E0',
 			gray600: '#4A5568',
 			white: '#FFFFFF',
@@ -35,19 +35,19 @@ const theme = extendTheme({
 			blue: '#7285EA',
 			lightGray: '#E1E1E1',
 			lightPrimary: '#ECE8FF',
-			primary200: '#5C47D9',
-			hover: '#8750AF',
+			primary200: '#2C6A8C',
+			hover: '#5CA9E6',
 		},
 		light: {
 			primary: '#ECEBF1',
 			secondary: '#A0A0A0',
-			purple: '#ECE8FF',
-			purple2: '#B699F5',
-			purple3: '#9F79F2',
-			purple4: 'rgb(182, 153, 245, .4)',
+			purple: '#d5e6f1',
+			purple2: '#A3C6E6',
+			purple3: '#7FB3DD',
+			purple4: 'rgb(213, 230, 241, .4)',
 		},
 		dark: {
-			primary: '#662D8F',
+			primary: '#428EB6',
 			secondary: '#222222',
 		},
 	},

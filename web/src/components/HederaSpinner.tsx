@@ -5,14 +5,6 @@ interface HederaSpinnerProps {
 	children?: ReactNode;
 }
 
-const transition = {
-	duration: 1,
-	ease: 'easeInOut',
-	times: [0, 0.2, 0.5, 0.8, 1],
-	repeat: Infinity,
-	repeatDelay: 1,
-};
-
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const HederaSpinner = ({ ...props }: HederaSpinnerProps) => {
 	return (
@@ -22,7 +14,7 @@ const HederaSpinner = ({ ...props }: HederaSpinnerProps) => {
 					thickness='4px'
 					speed='0.65s'
 					emptyColor='gray.200'
-					color='brand.primary200' // 或你想要的顏色
+					color='brand.primary' // 或你想要的顏色
 					size='xl'
 				/>
 			</Center>
