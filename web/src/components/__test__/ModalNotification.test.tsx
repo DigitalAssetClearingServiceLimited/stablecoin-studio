@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event';
-import ModalNotification from '../ModalNotification';
+import HEDERA_LOGO from '../../assets/png/DACC-logo-full.png';
 import { render } from '../../test/index';
-import HEDERA_LOGO from '../../assets/png/hedera-hbar-logo.png';
+import ModalNotification from '../ModalNotification';
 
 const defaultProps = {
 	title: 'Title',

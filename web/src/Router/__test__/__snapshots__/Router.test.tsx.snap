@@ -19,7 +19,7 @@ exports[`<Router /> should render correctly 1`] = `
           <img
             class="chakra-image css-z4bd0k"
             data-testid="topbar-logo"
-            src="hedera-hbar-logo.svg"
+            src="DACC-logo-full.png"
           />
         </div>
         <div
